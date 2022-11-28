@@ -33,8 +33,9 @@ struct Trip: Identifiable{
 		let lengthInSeconds = distance*10*60
 		let daysAgo = Int.random(in: 1...65)
 		let secondsAgo = Double(daysAgo)*24*60*60.0
-		let values = Array(1...4).map{_ in Double.random(in: 17.0...100.0).rounded()}
-		return Trip(distanceInKM: distance, score: values[0], accuracy: values[1], smoothness: values[2], niceness: values[3], start: Date().addingTimeInterval(-1.0*secondsAgo), end: Date().addingTimeInterval(-1.0*secondsAgo+lengthInSeconds), tripStart: Self.startingLoc, tripEnd: randomSecondCoord(l: Self.startingLoc, distanceInM: Int(distance*0.9)*1000, doX: .random()))
+		let values = Array(1...3).map{_ in Double.random(in: 17.0...100.0).rounded()}
+		let theScore = values.reduce(0,+)/Double(values.count)
+		return Trip(distanceInKM: distance, score: theScore.rounded(), accuracy: values[0], smoothness: values[1], niceness: values[2], start: Date().addingTimeInterval(-1.0*secondsAgo), end: Date().addingTimeInterval(-1.0*secondsAgo+lengthInSeconds), tripStart: Self.startingLoc, tripEnd: randomSecondCoord(l: Self.startingLoc, distanceInM: Int(distance*0.9)*1000, doX: .random()))
 	}
 }
 
