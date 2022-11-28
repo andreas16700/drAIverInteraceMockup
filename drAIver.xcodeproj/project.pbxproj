@@ -19,7 +19,6 @@
 		02DF712D29342292002F1F02 /* DrivingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF712C29342292002F1F02 /* DrivingHeaderView.swift */; };
 		02DF712F293425F4002F1F02 /* DrivingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF712E293425F4002F1F02 /* DrivingDetailView.swift */; };
 		02DF71312934376F002F1F02 /* MyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF71302934376F002F1F02 /* MyMapView.swift */; };
-		02DF713329343780002F1F02 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF713229343780002F1F02 /* ContentView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		02DF712C29342292002F1F02 /* DrivingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingHeaderView.swift; sourceTree = "<group>"; };
 		02DF712E293425F4002F1F02 /* DrivingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingDetailView.swift; sourceTree = "<group>"; };
 		02DF71302934376F002F1F02 /* MyMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMapView.swift; sourceTree = "<group>"; };
-		02DF713229343780002F1F02 /* ContentView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView2.swift; path = "../../../../../../DrawMap-routes-SwiftUI/DrawPath/DrawPath/ContentView2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +111,6 @@
 				02DF712E293425F4002F1F02 /* DrivingDetailView.swift */,
 				02DF71302934376F002F1F02 /* MyMapView.swift */,
 				02DF712A29342205002F1F02 /* DrivingTrip.swift */,
-				02DF713229343780002F1F02 /* ContentView2.swift */,
 				02DF71002934214D002F1F02 /* Assets.xcassets */,
 				02DF71022934214D002F1F02 /* Preview Content */,
 			);
@@ -277,7 +274,6 @@
 			files = (
 				02DF70FF2934214C002F1F02 /* ContentView.swift in Sources */,
 				02DF712D29342292002F1F02 /* DrivingHeaderView.swift in Sources */,
-				02DF713329343780002F1F02 /* ContentView2.swift in Sources */,
 				02DF71292934219D002F1F02 /* DrivingsListView.swift in Sources */,
 				02DF712F293425F4002F1F02 /* DrivingDetailView.swift in Sources */,
 				02DF712B29342205002F1F02 /* DrivingTrip.swift in Sources */,
