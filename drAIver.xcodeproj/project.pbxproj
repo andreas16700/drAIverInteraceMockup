@@ -19,6 +19,12 @@
 		02DF712D29342292002F1F02 /* DrivingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF712C29342292002F1F02 /* DrivingHeaderView.swift */; };
 		02DF712F293425F4002F1F02 /* DrivingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF712E293425F4002F1F02 /* DrivingDetailView.swift */; };
 		02DF71312934376F002F1F02 /* MyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF71302934376F002F1F02 /* MyMapView.swift */; };
+		02DF7137293450A6002F1F02 /* detail_bottom.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 02DF7134293450A6002F1F02 /* detail_bottom.jpeg */; };
+		02DF7138293450A6002F1F02 /* detail_top.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 02DF7135293450A6002F1F02 /* detail_top.PNG */; };
+		02DF7139293450A6002F1F02 /* map_view.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 02DF7136293450A6002F1F02 /* map_view.PNG */; };
+		02DF713B29345135002F1F02 /* trips.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 02DF713A29345135002F1F02 /* trips.PNG */; };
+		02DF713D293451A1002F1F02 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 02DF713C293451A1002F1F02 /* README.md */; };
+		02DF713F293451AD002F1F02 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 02DF713E293451AD002F1F02 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,12 @@
 		02DF712C29342292002F1F02 /* DrivingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingHeaderView.swift; sourceTree = "<group>"; };
 		02DF712E293425F4002F1F02 /* DrivingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingDetailView.swift; sourceTree = "<group>"; };
 		02DF71302934376F002F1F02 /* MyMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMapView.swift; sourceTree = "<group>"; };
+		02DF7134293450A6002F1F02 /* detail_bottom.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detail_bottom.jpeg; sourceTree = "<group>"; };
+		02DF7135293450A6002F1F02 /* detail_top.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_top.PNG; sourceTree = "<group>"; };
+		02DF7136293450A6002F1F02 /* map_view.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_view.PNG; sourceTree = "<group>"; };
+		02DF713A29345135002F1F02 /* trips.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trips.PNG; sourceTree = "<group>"; };
+		02DF713C293451A1002F1F02 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		02DF713E293451AD002F1F02 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,12 @@
 		02DF70F02934214C002F1F02 = {
 			isa = PBXGroup;
 			children = (
+				02DF7134293450A6002F1F02 /* detail_bottom.jpeg */,
+				02DF7135293450A6002F1F02 /* detail_top.PNG */,
+				02DF713C293451A1002F1F02 /* README.md */,
+				02DF713A29345135002F1F02 /* trips.PNG */,
+				02DF713E293451AD002F1F02 /* LICENSE */,
+				02DF7136293450A6002F1F02 /* map_view.PNG */,
 				02DF70FB2934214C002F1F02 /* drAIver */,
 				02DF710C2934214D002F1F02 /* drAIverTests */,
 				02DF71162934214D002F1F02 /* drAIverUITests */,
@@ -247,7 +265,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				02DF71042934214D002F1F02 /* Preview Assets.xcassets in Resources */,
+				02DF7137293450A6002F1F02 /* detail_bottom.jpeg in Resources */,
+				02DF713F293451AD002F1F02 /* LICENSE in Resources */,
+				02DF713B29345135002F1F02 /* trips.PNG in Resources */,
+				02DF713D293451A1002F1F02 /* README.md in Resources */,
+				02DF7138293450A6002F1F02 /* detail_top.PNG in Resources */,
 				02DF71012934214D002F1F02 /* Assets.xcassets in Resources */,
+				02DF7139293450A6002F1F02 /* map_view.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
